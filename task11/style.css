@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: #eff0f4;
+  margin-bottom: 700px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #5fc0cd;
+}
+body header a {
+  text-decoration: none;
+}
+body header .close {
+  font-size: 32px;
+  color: #fff;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+body header h4 {
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+}
+body main .min-box-one {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  margin: 16px 0;
+}
+body main .min-box-one .iphone {
+  background: url(images/iphone.png) no-repeat;
+  background-position: 40px;
+  width: 27px;
+  height: 40px;
+  padding: 0 40px;
+  border-right: 2px solid #e1e5e7;
+}
+body main input {
+  font-size: 32px;
+  border: none;
+  padding: 0 32px;
+  outline: none;
+  width: 100%;
+}
+body main input::-webkit-input-placeholder,
+body main textarea::-webkit-input-placeholder {
+  color: #e1e5e7;
+}
+body main .min-box-two {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+body main .min-box-two .lock {
+  background: url(images/locked.png) no-repeat;
+  background-position: 40px;
+  width: 27px;
+  height: 40px;
+  padding: 0 40px;
+  border-right: 2px solid #e1e5e7;
+}
+body footer {
+  background-color: #5fc0cd;
+  width: 100%;
+  height: 100px;
+  margin-top: 68px;
+}
+body footer .login-box {
+  position: relative;
+  top: 25px;
+  text-align: center;
+}
+body footer .log-in {
+  font-size: 36px;
+  color: #fff;
+}
+body footer p {
+  margin: 0;
+}
+body footer span {
+  position: absolute;
+  right: 33px;
+  bottom: 20px;
+  color: #5fc0cd;
+  font-size: 32px;
+}
