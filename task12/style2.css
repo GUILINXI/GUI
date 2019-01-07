@@ -219,6 +219,7 @@ footer .me {
   display: inline-block;
   margin: 0.5rem 0 0 0.11rem;
   color: #999;
+  text-decoration: none;
 }
 @media screen and (max-width: 768px) {
   html {
