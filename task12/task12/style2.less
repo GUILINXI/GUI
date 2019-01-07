@@ -1,0 +1,230 @@
+html {
+    font-size: 625%;
+}
+body {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.fixation{
+    position: fixed;
+    width: 100%;
+    height: 0.8rem;
+}
+.elastic-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elastic-colum {
+    display: flex;
+    flex-direction: column;
+}
+.elastic-around {
+    display: flex;
+    justify-content: space-around;
+}
+.block {
+    display: inline-block;
+    margin: 0.5rem 0 0 0.11rem;
+}
+.size {
+    width: 0.6rem;
+    height: 0.6rem;
+    background-size: contain;
+}
+.icon {
+    display: inline-block;
+    padding: 0 0.5rem;
+    margin: 0.2rem 0 0.24rem 0.3rem;
+    line-height: 1;
+    background-size: contain;
+}
+
+@import "color.less";
+
+header {
+    .fixation;
+    top: 0;
+    background: @colorbackground;
+
+    .recruit-box {
+        .elastic-center;
+        height: 0.8rem;
+
+        button {
+            border: 1px solid @colorborder;
+            border-radius: 0.08rem;
+            padding: 0.06rem;
+            margin-right: -3px;
+            font-size: 0.32rem;
+            color: @colorfff;
+            background: @colorborder;
+            outline: none;
+        }
+        button:hover {
+            background: @colorfff;
+            color:@colorbackground;
+            cursor: pointer;
+        }
+    
+        .piloting {
+            position: absolute;
+            right: 0.3rem;
+            background: url(./images/dingwei.png) no-repeat;
+            width: 0.42rem;
+            height: 0.44rem;
+            background-size: contain;
+        }
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    ul {
+        
+        li {
+            float: left;
+    
+            a {
+                font-size: 0.32rem;
+                color: @color999;
+            }
+            .border-line {
+                border-right: 1px solid @colorborder-line;
+            }
+        }
+        .dropdown-menu-location {
+            position: relative;
+            width: 33.3%;
+            height: 0.45rem;
+            border-bottom: 1px solid @colorborder-line;
+            background: @colorfff;
+        }
+    }
+}
+
+ul {
+    a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        margin: 0.1rem 0;
+        line-height: 0.25rem;
+        font-weight: 700; 
+
+        .menu-arrow {
+            position: absolute;
+            top: 50%;
+            left: 90%;
+            margin-bottom: 5px;
+            border-width: 0.05rem 0.05rem 0;
+            border-style: solid;
+            border-color: @color999 transparent;
+        }
+    }
+}
+
+.menu-content {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    li {
+        width: 100%;
+
+        a {
+            display: none;
+        }
+    }
+}
+.dropdown-menu-location:hover a {
+    display: block;
+    cursor: pointer;
+}
+main {
+    margin-top: 1.28rem;
+    .boxs {
+        .elastic-colum;
+        width: 100%;
+        color: @color999;
+        font-size: 0.32rem;
+        border-bottom: 1px solid @colorborder-line;
+
+        .data-one {
+            .icon;
+            background: url(./images/sprites.png) no-repeat;
+        }
+
+        .data-three {
+            .icon;
+            background: url(./images/dibiao.png) no-repeat;
+        }
+    }
+}
+.boxs {
+    .data-two {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0.8rem;
+        line-height: 1;
+
+        .price {
+            color: @colorfont;
+        }
+        .data {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            color: @black;
+        }
+        .arrow {
+            display: inline-block;
+            background: url(./images/arrow.png) no-repeat;
+            width: 0.24rem;
+            height: 0.24rem;
+            margin-top: 0.06rem;
+            background-size: contain;
+        }
+    }
+}
+footer {
+    .elastic-around;
+    .fixation;
+    bottom: 0;
+    background: @footerbg;
+    font-size: 0.20rem;
+
+    .house {
+        background: url(./images/house.png) no-repeat;
+        .size;
+    }
+    .write {
+        background: url(./images/wenben.png) no-repeat;
+        margin: 0.1rem;
+        .size;
+    }
+    .me {
+        background: url(./images/touxiang.png) no-repeat;
+        .size;
+    }
+}
+.house > .text-one {
+    .block;
+    color: @colorbackground;
+}
+.me > .text-two {
+    .block;
+    color: @color999;
+    text-decoration: none;
+}
+@media screen and (max-width:768px) {
+    html {
+        font-size: (625%/2);
+    }
+}

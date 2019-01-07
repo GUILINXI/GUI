@@ -1,0 +1,228 @@
+html {
+  font-size: 625%;
+}
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.fixation {
+  position: fixed;
+  width: 100%;
+  height: 0.8rem;
+}
+.elastic-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elastic-colum {
+  display: flex;
+  flex-direction: column;
+}
+.elastic-around {
+  display: flex;
+  justify-content: space-around;
+}
+.block {
+  display: inline-block;
+  margin: 0.5rem 0 0 0.11rem;
+}
+.size {
+  width: 0.6rem;
+  height: 0.6rem;
+  background-size: contain;
+}
+.icon {
+  display: inline-block;
+  padding: 0 0.5rem;
+  margin: 0.2rem 0 0.24rem 0.3rem;
+  line-height: 1;
+  background-size: contain;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 0.8rem;
+  top: 0;
+  background: #5fc0cd;
+}
+header .recruit-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.8rem;
+}
+header .recruit-box button {
+  border: 1px solid #55a8b3;
+  border-radius: 0.08rem;
+  padding: 0.06rem;
+  margin-right: -3px;
+  font-size: 0.32rem;
+  color: #fff;
+  background: #55a8b3;
+  outline: none;
+}
+header .recruit-box button:hover {
+  background: #fff;
+  color: #5fc0cd;
+  cursor: pointer;
+}
+header .recruit-box .piloting {
+  position: absolute;
+  right: 0.3rem;
+  background: url(images/dingwei.png) no-repeat;
+  width: 0.42rem;
+  height: 0.44rem;
+  background-size: contain;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  font-size: 0.32rem;
+  color: #999;
+}
+header ul li .border-line {
+  border-right: 1px solid #e1e5e7;
+}
+header ul .dropdown-menu-location {
+  position: relative;
+  width: 33.3%;
+  height: 0.45rem;
+  border-bottom: 1px solid #e1e5e7;
+  background: #fff;
+}
+ul a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin: 0.1rem 0;
+  line-height: 0.25rem;
+  font-weight: 700;
+}
+ul a .menu-arrow {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  margin-bottom: 5px;
+  border-width: 0.05rem 0.05rem 0;
+  border-style: solid;
+  border-color: #999 transparent;
+}
+.menu-content {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+}
+.menu-content li {
+  width: 100%;
+}
+.menu-content li a {
+  display: none;
+}
+.dropdown-menu-location:hover a {
+  display: block;
+  cursor: pointer;
+}
+main {
+  margin-top: 1.28rem;
+}
+main .boxs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #999;
+  font-size: 0.32rem;
+  border-bottom: 1px solid #e1e5e7;
+}
+main .boxs .data-one {
+  display: inline-block;
+  padding: 0 0.5rem;
+  margin: 0.2rem 0 0.24rem 0.3rem;
+  line-height: 1;
+  background-size: contain;
+  background: url(images/sprites.png) no-repeat;
+}
+main .boxs .data-three {
+  display: inline-block;
+  padding: 0 0.5rem;
+  margin: 0.2rem 0 0.24rem 0.3rem;
+  line-height: 1;
+  background-size: contain;
+  background: url(images/dibiao.png) no-repeat;
+}
+.boxs .data-two {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.8rem;
+  line-height: 1;
+}
+.boxs .data-two .price {
+  color: #e63b0e;
+}
+.boxs .data-two .data {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #333;
+}
+.boxs .data-two .arrow {
+  display: inline-block;
+  background: url(images/arrow.png) no-repeat;
+  width: 0.24rem;
+  height: 0.24rem;
+  margin-top: 0.06rem;
+  background-size: contain;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  height: 0.8rem;
+  bottom: 0;
+  background: #f8fafb;
+  font-size: 0.20rem;
+}
+footer .house {
+  background: url(images/house.png) no-repeat;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-size: contain;
+}
+footer .write {
+  background: url(images/wenben.png) no-repeat;
+  margin: 0.1rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-size: contain;
+}
+footer .me {
+  background: url(images/touxiang.png) no-repeat;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-size: contain;
+}
+.house > .text-one {
+  display: inline-block;
+  margin: 0.5rem 0 0 0.11rem;
+  color: #5fc0cd;
+}
+.me > .text-two {
+  display: inline-block;
+  margin: 0.5rem 0 0 0.11rem;
+  color: #999;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 312.5%;
+  }
+}
