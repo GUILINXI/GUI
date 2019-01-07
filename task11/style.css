@@ -1,3 +1,20 @@
+html {
+  font-size: 625%;
+}
+.minboxs {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1rem;
+  background-color: #fff;
+}
+.imgstyle {
+  background-position: 0.4rem;
+  width: 0.27rem;
+  height: 0.4rem;
+  padding: 0 0.4rem;
+  border-right: 2px solid #e1e5e7;
+}
 body {
   margin: 0;
   background-color: #eff0f4;
@@ -8,43 +25,44 @@ body header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 80px;
+  height: 0.8rem;
   background: #5fc0cd;
 }
 body header a {
   text-decoration: none;
 }
 body header .close {
-  font-size: 32px;
+  font-size: 0.32rem;
   color: #fff;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 0.16rem;
+  margin-right: 0.16rem;
 }
 body header h4 {
   margin: 0;
-  font-size: 36px;
+  font-size: 0.36rem;
   color: #fff;
 }
 body main .min-box-one {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 100px;
+  height: 1rem;
   background-color: #fff;
-  margin: 16px 0;
+  margin: 0.16rem 0;
 }
 body main .min-box-one .iphone {
   background: url(images/iphone.png) no-repeat;
-  background-position: 40px;
-  width: 27px;
-  height: 40px;
-  padding: 0 40px;
+  background-size: contain;
+  background-position: 0.4rem;
+  width: 0.27rem;
+  height: 0.4rem;
+  padding: 0 0.4rem;
   border-right: 2px solid #e1e5e7;
 }
 body main input {
-  font-size: 32px;
+  font-size: 0.32rem;
   border: none;
-  padding: 0 32px;
+  padding: 0 0.32rem;
   outline: none;
   width: 100%;
 }
@@ -56,39 +74,44 @@ body main .min-box-two {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 100px;
+  height: 1rem;
   background-color: #fff;
 }
 body main .min-box-two .lock {
   background: url(images/locked.png) no-repeat;
-  background-position: 40px;
-  width: 27px;
-  height: 40px;
-  padding: 0 40px;
+  background-size: contain;
+  background-position: 0.4rem;
+  width: 0.27rem;
+  height: 0.4rem;
+  padding: 0 0.4rem;
   border-right: 2px solid #e1e5e7;
 }
 body footer {
-  background-color: #5fc0cd;
-  width: 100%;
-  height: 100px;
-  margin-top: 68px;
+  margin-top: 0.68rem;
 }
 body footer .login-box {
-  position: relative;
-  top: 25px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1rem;
+  background-color: #5fc0cd;
 }
 body footer .log-in {
-  font-size: 36px;
+  font-size: 0.36rem;
   color: #fff;
 }
 body footer p {
   margin: 0;
 }
 body footer span {
-  position: absolute;
-  right: 33px;
-  bottom: 20px;
+  float: right;
+  margin-top: 0.2rem;
   color: #5fc0cd;
-  font-size: 32px;
+  font-size: 0.32rem;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 312.5%;
+  }
 }
