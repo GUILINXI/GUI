@@ -1,0 +1,97 @@
+@import "color.less";
+
+.img-wh {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.imgs-wh {
+    width: 0.4rem;
+    height: 0.3rem;
+}
+.btn-w {
+    width: 40%;
+}
+header {
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 0.6rem;
+    border-bottom: 1px solid @line3color;
+    background: @blue;
+
+    .house {
+        background: url(../images/house.png) no-repeat;
+        .imgs-wh;
+        background-size: auto 0.3rem;
+    }
+    .headline {
+        color: @colorfff;
+    }
+    .circle-line {
+        background: url(../images/hao.png) no-repeat;
+        .img-wh;
+        background-size: auto 0.3rem;
+    }
+}
+main {
+    background: @blue;
+}
+main > div > .backg {
+    background: url(../images/beijing.png) no-repeat;
+    background-size: contain;
+    width: 3.5rem;
+    height: 2rem;
+}
+main > .paragraph {
+    margin: 0 0.5rem 0.1rem 0.5rem;
+    color: @yellow;
+    font-weight: 700;
+}
+main > .paragraph1 {
+    margin: 0 0.5rem;
+    color: @colorfff;
+}
+main > .paragraphs {
+    margin: 0.15rem 0.5rem 0 0.5rem;
+    color: @colorfff;
+}
+main > .paragraph2 {
+    color: @colorfff;
+}
+main > .text-box {
+    background: @colorfff;
+}
+.min {
+    color: @fontcolor;
+}
+.night {
+    color: @fontcolor;
+}
+.whine {
+    color: @fontcolor;
+    border-bottom: 1px solid @linecolor;
+}
+.base {
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 1.25rem;
+    background: @footerback;
+    background-color: rgba(119, 190, 206, 0.6);
+}
+.base > .red {
+    .btn-w;
+    border-radius: 6px;
+    background: @button;
+    color: @colorfff;
+}
+.base > .orages {
+    .btn-w;
+    border-radius: 6px;
+    background: @yellow;
+    color: @colorfff;
+}

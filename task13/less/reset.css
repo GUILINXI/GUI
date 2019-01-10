@@ -1,0 +1,16 @@
+html {
+    font-size: 625%;
+}
+body {
+    margin: 0;
+}
+h4, h5, p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+

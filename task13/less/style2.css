@@ -1,0 +1,134 @@
+.img-wh {
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.align-conter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.around {
+  display: flex;
+  justify-content: space-around;
+}
+.imgs-wh {
+  width: 4vw;
+  height: 4vw;
+}
+body {
+  background: #29bde0;
+}
+header {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 0.6rem;
+}
+header .function-key {
+  background: url(../images/function.png) no-repeat;
+  width: 0.36rem;
+  height: 0.36rem;
+  background-size: 0.36rem;
+}
+header .vote {
+  color: #fff;
+}
+header .close {
+  background: url(../images/x.png) no-repeat;
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.end {
+  background: #b9e9f5;
+}
+.end .icon {
+  background: url(../images/icon.png) no-repeat;
+  width: 0.36rem;
+  height: 0.36rem;
+  top: 0.12rem;
+  right: 0.15rem;
+  background-size: 0.36rem;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-width: 10px 5px 0;
+  border-style: solid;
+  border-color: #b9e9f5 transparent transparent;
+}
+.text {
+  color: #fff;
+}
+.box-box {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 20vw;
+  border: 3px solid #fff;
+}
+.text-box > .water {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  font-size: 3vw;
+  background: #f5c97b;
+}
+.text-box > .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  font-size: 2vw;
+  background: #83b09a;
+}
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  opacity: 0;
+}
+.pictures .picture-1 {
+  width: 4vw;
+  height: 4vw;
+}
+.pictures .picture-2 {
+  width: 4vw;
+  height: 4vw;
+}
+.pictures .picture-3 {
+  width: 4vw;
+  height: 4vw;
+}
+.pictures .picture-4 {
+  width: 4vw;
+  height: 4vw;
+}
+.box-two:hover .pictures {
+  opacity: 1;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.8rem;
+  background: #29bde0;
+}
+footer .base {
+  width: 60%;
+  text-align: center;
+  background: #fbb435;
+  color: #fff;
+}

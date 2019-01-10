@@ -1,0 +1,81 @@
+@import "color.less";
+.wid {
+    width: 100%;
+}
+.wcb {
+    width: 70%;
+    color: @colorfff;
+    background: @blue;
+}
+body {
+    background: @circle;
+}
+header {
+    align-items: center;
+    .wid;
+    height: 0.6rem;
+    background: @blue;
+
+    .line {
+        background: url(../images/line.png) no-repeat;
+        width: 0.24rem;
+        height: 0.3rem;
+    }
+}
+
+.text-box-one {
+    .wid;
+    border: 1px solid @linecolor;
+    background: @colorfff;   
+
+    p {
+        color: @fontcolor;
+
+        .arrow {
+            width: 0.15rem;
+            height: 0.2rem;
+        }
+    }
+}
+.text-box-two {
+    .wid;
+    border: 1px solid @linecolor;
+    background: @colorfff;
+    
+    .text {
+        color: @yellow;
+        border-bottom: 2px solid @line2color;
+    }
+}
+.text-box-three {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .texts {
+        .wcb;
+    }
+    .textd {
+        background: url(../images/triangle.png) no-repeat;
+        width: 0.24rem;
+        height: 0.4rem;
+        background-size: auto 0.4rem;
+        top: 6.1rem;
+        right: 0.5rem;
+    }
+    .paragraph {
+        color: @fontcolor;
+    }
+}
+.circle {
+    justify-content: center;
+    a {
+        border-radius: 50%;
+        width: 0.2rem;
+        height: 0.2rem;
+        background: @circle;
+    }
+    a:hover {
+        background: @blue;
+    }
+}
+

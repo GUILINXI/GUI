@@ -1,0 +1,123 @@
+@import "color.less";
+
+.img-wh {
+    width: 0.36rem;
+    height: 0.36rem;
+}
+.align-conter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.around {
+    display: flex;
+    justify-content: space-around;
+}
+.imgs-wh {
+    width: 4vw;
+    height: 4vw;
+}
+body {
+    background: @blue;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 0.6rem;
+
+    .function-key {
+        background: url(../images/function.png) no-repeat;
+        .img-wh;
+        background-size: 0.36rem;
+    }
+    .vote {
+        color: @colorfff;
+    }
+    .close {
+        background: url(../images/x.png) no-repeat;
+        .img-wh;
+    }
+}
+.end {
+    background: @end;
+
+    .icon {
+        background: url(../images/icon.png) no-repeat;
+        .img-wh;
+        top: 0.12rem;
+        right: 0.15rem;
+        background-size: 0.36rem;
+    }
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-width: 10px 5px 0;
+    border-style: solid;
+    border-color: @end transparent transparent;
+}
+.text {
+    color: @colorfff;
+}
+.box-box {
+    .around;
+    width: 100%;
+}
+.text-box {
+    .align-conter;
+    flex-direction: column;
+    width: 20vw;
+    height: 20vw;
+    border: 3px solid @colorfff;
+}
+.text-box > .water {
+    .align-conter;
+    width: 100%;
+    height: 70%;
+    font-size: 3vw;
+    background: @yellows;
+}
+.text-box > .first {
+    .align-conter;
+    width: 100%;
+    height: 30%;
+    font-size: 2vw;
+    background: @green;
+}
+.pictures {
+    .around;
+    width: 100%;
+    opacity: 0;
+
+    .picture-1 {
+        .imgs-wh;
+    }
+    .picture-2 {
+        .imgs-wh;
+    }
+    .picture-3 {
+        .imgs-wh;
+    }
+    .picture-4 {
+        .imgs-wh;
+    }
+}
+.box-two:hover .pictures {
+    opacity: 1;
+}
+footer {
+    .align-conter;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.8rem;
+    background: @blue;
+    
+    .base {
+        width: 60%;
+        text-align: center;
+        background: @yellow;
+        color: @colorfff;
+    }
+}

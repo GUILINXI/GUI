@@ -1,0 +1,76 @@
+.wid {
+  width: 100%;
+}
+.wcb {
+  width: 70%;
+  color: #fff;
+  background: #29bde0;
+}
+body {
+  background: #f0f0f0;
+}
+header {
+  align-items: center;
+  width: 100%;
+  height: 0.6rem;
+  background: #29bde0;
+}
+header .line {
+  background: url(../images/line.png) no-repeat;
+  width: 0.24rem;
+  height: 0.3rem;
+}
+.text-box-one {
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  background: #fff;
+}
+.text-box-one p {
+  color: #787878;
+}
+.text-box-one p .arrow {
+  width: 0.15rem;
+  height: 0.2rem;
+}
+.text-box-two {
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  background: #fff;
+}
+.text-box-two .text {
+  color: #fbb435;
+  border-bottom: 2px solid #fde1ae;
+}
+.text-box-three {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-box-three .texts {
+  width: 70%;
+  color: #fff;
+  background: #29bde0;
+}
+.text-box-three .textd {
+  background: url(../images/triangle.png) no-repeat;
+  width: 0.24rem;
+  height: 0.4rem;
+  background-size: auto 0.4rem;
+  top: 6.1rem;
+  right: 0.5rem;
+}
+.text-box-three .paragraph {
+  color: #787878;
+}
+.circle {
+  justify-content: center;
+}
+.circle a {
+  border-radius: 50%;
+  width: 0.2rem;
+  height: 0.2rem;
+  background: #f0f0f0;
+}
+.circle a:hover {
+  background: #29bde0;
+}
