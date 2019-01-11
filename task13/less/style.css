@@ -30,6 +30,11 @@ header .line {
 .text-box-one p .arrow {
   width: 0.15rem;
   height: 0.2rem;
+  top: 37%;
+  right: 2%;
+}
+.text-box-one > p {
+  line-height: 0.65rem;
 }
 .text-box-two {
   width: 100%;
@@ -37,6 +42,7 @@ header .line {
   background: #fff;
 }
 .text-box-two .text {
+  line-height: 0.46rem;
   color: #fbb435;
   border-bottom: 2px solid #fde1ae;
 }
@@ -46,7 +52,7 @@ header .line {
 .text-box-three .texts {
   color: #fff;
   background: #29bde0;
-  line-height: 1.2rem;
+  line-height: 0.68rem;
   margin: 0 0.6rem;
 }
 .text-box-three .textd {
@@ -54,7 +60,7 @@ header .line {
   width: 0.24rem;
   height: 0.4rem;
   background-size: auto 0.4rem;
-  top: calc(50%);
+  top: 44%;
   right: 2%;
 }
 .text-box-three .paragraph {
