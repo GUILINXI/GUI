@@ -2,7 +2,6 @@
   width: 100%;
 }
 .wcb {
-  width: 70%;
   color: #fff;
   background: #29bde0;
 }
@@ -43,21 +42,20 @@ header .line {
 }
 .text-box-three {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .text-box-three .texts {
-  width: 70%;
   color: #fff;
   background: #29bde0;
+  line-height: 1.2rem;
+  margin: 0 0.6rem;
 }
 .text-box-three .textd {
   background: url(../images/triangle.png) no-repeat;
   width: 0.24rem;
   height: 0.4rem;
   background-size: auto 0.4rem;
-  top: 6.1rem;
-  right: 0.5rem;
+  top: calc(50%);
+  right: 2%;
 }
 .text-box-three .paragraph {
   color: #787878;
