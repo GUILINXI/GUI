@@ -10,9 +10,8 @@
   text-align: center;
   height: 2rem;
 }
-.dib-whbz {
+.dib-hbz {
   display: inline-block;
-  width: .6rem;
   height: .6rem;
   background-size: contain;
 }
@@ -99,9 +98,9 @@ main {
 }
 .rocket {
   display: inline-block;
-  width: .6rem;
   height: .6rem;
   background-size: contain;
+  width: .4rem;
   background: url(../images/rocket.png) no-repeat;
 }
 .twotext {
@@ -116,16 +115,16 @@ main {
 }
 .books {
   display: inline-block;
-  width: .6rem;
   height: .6rem;
   background-size: contain;
+  width: .55rem;
   background: url(../images/archive.png) no-repeat;
 }
 .contacts {
   display: inline-block;
-  width: .6rem;
   height: .6rem;
   background-size: contain;
+  width: .48rem;
   background: url(../images/Shape3.png) no-repeat;
 }
 .boxss {
