@@ -231,8 +231,7 @@ main {
   letter-spacing: 1px;
 }
 .picture-box:hover {
-  border: 1px solid #dedede;
-  box-shadow: #dedede 1px 1px 1px 1px;
+  box-shadow: #dedede 1px 1px 2px 1px;
   cursor: pointer;
 }
 .roundness {
