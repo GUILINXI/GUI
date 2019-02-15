@@ -1,0 +1,219 @@
+.icon-dp-whb {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  margin: .05rem .15rem 0 0;
+  background-size: contain;
+}
+.paragraph-style {
+  line-height: 2;
+  color: #999;
+  text-indent: .25rem;
+}
+.text-1-style {
+  border-right: 2px solid;
+  padding: 0 0.05rem;
+}
+html {
+  font-size: 625%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #fafafa;
+}
+.partition {
+  display: flex;
+  justify-content: space-between;
+}
+.hotline {
+  padding-top: .1rem;
+  font-size: .14rem;
+  color: #29b078;
+}
+.icon {
+  font-size: .14rem;
+}
+.qq {
+  background: url(../images/1.png) no-repeat;
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  margin: .05rem .15rem 0 0;
+  background-size: contain;
+}
+.wx {
+  background: url(../images/2.png) no-repeat;
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  margin: .05rem .15rem 0 0;
+  background-size: contain;
+}
+.wb {
+  background: url(../images/3.png) no-repeat;
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  margin: .05rem .15rem 0 0;
+  background-size: contain;
+}
+.enterprise {
+  width: 100%;
+}
+.homepage-box {
+  padding-top: .3rem;
+}
+.homepage {
+  display: flex;
+  padding-bottom: .3rem;
+}
+.profession {
+  color: #29b078;
+}
+.big-box {
+  border: 1px solid #e6e6e6;
+  width: 80%;
+  background: #fff;
+}
+.teamwork {
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  height: .6rem;
+}
+.teamwork > p {
+  text-align: center;
+  padding: .2rem 0;
+}
+.jz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle-text {
+  display: block;
+  padding: .2rem 0;
+  width: 95px;
+  color: #29b078;
+  cursor: pointer;
+}
+.circle {
+  display: inline-block;
+  height: .1rem;
+  width: .1rem;
+  border-radius: 50%;
+  border: 1px solid #ff650e;
+  padding-right: .05rem;
+}
+.circle-text:hover {
+  color: #ff650e;
+  cursor: pointer;
+}
+.circle-text:hover .circle {
+  color: #ff650e;
+  background: #ff650e;
+}
+.paragraph-box {
+  background: #fff;
+  width: 100%;
+}
+.tudou-image {
+  display: flex;
+  padding: .25rem .6rem .3rem .6rem;
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  text-indent: .25rem;
+}
+.tudou {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.tudou-image > p {
+  line-height: 2;
+  margin-left: .2rem;
+  color: #999;
+}
+.paragraph-one {
+  margin-bottom: 2.3rem;
+  border: 1px solid #e6e6e6;
+}
+.paragraph-text {
+  padding: .35rem .6rem 0 .6rem;
+  line-height: 2;
+  color: #999;
+  text-indent: .25rem;
+}
+.paragraph-texts {
+  padding: .35rem .6rem 1.8rem .6rem;
+  line-height: 2;
+  color: #999;
+  text-indent: .25rem;
+}
+footer {
+  background: #29b078;
+}
+.content {
+  color: #fff;
+  padding: .35rem 0 .65rem 0;
+}
+.text-1 {
+  padding-left: .05rem;
+  font-size: .14rem;
+  color: #fff;
+}
+.text-1:nth-of-type(1) {
+  border-right: 2px solid;
+  padding: 0 0.05rem;
+}
+.text-1:nth-of-type(2) {
+  border-right: 2px solid;
+  padding: 0 0.05rem;
+}
+.content2 {
+  color: #fff;
+  padding: .35rem 0 .25rem 0;
+}
+.text-2 {
+  display: inline-block;
+  padding: 0 .1rem .2rem 0;
+  font-size: .14rem;
+  color: #fff;
+}
+.none {
+  padding: .8rem 0;
+}
+.texts-4 {
+  text-align: right;
+}
+.content3 {
+  color: #fff;
+  padding-top: .35rem;
+}
+.code {
+  display: inline-block;
+  width: .9rem;
+  height: .9rem;
+  background-size: contain;
+  background: url(../images/erweima.png) no-repeat;
+}
+.labels {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #32c086;
+  color: #fff;
+  background: #29b078;
+}
+@media screen and (max-width: 768px) {
+  .tudou-image {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .texts-4 {
+    text-align: left;
+  }
+}
