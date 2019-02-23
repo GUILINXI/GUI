@@ -1,0 +1,40 @@
+html {
+    font-size: 625%;
+}
+html * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+    height: 0;
+}
+.nine-grid-box {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    float: left;
+    width: 30%;
+    padding-top: 30%;
+    margin: 1%;
+    border-radius: 10%;
+    background-color: orange;
+}
+button {
+    display: block;
+    width: 98%;
+    padding: 3% 0;
+    margin: 1%;
+    border: 1px solid orange;
+    border-radius: .1rem;
+    background-color: #fff;
+    color: orange;
+}
