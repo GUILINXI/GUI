@@ -1,0 +1,15 @@
+.content {
+    margin: 0 auto;
+    text-align: center;
+    background: #000;
+    overflow: hidden;
+}
+.content > .primary {
+    color: #fff;
+}
+.content >  img {
+    float: left;
+    width: 38%;
+    margin: 5%;
+    border: 1px solid #fff;
+}
