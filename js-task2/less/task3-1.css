@@ -1,0 +1,120 @@
+html {
+  font-size: 625%;
+}
+body {
+  background: #29bde0;
+}
+.dp-flex {
+  display: flex;
+  justify-content: center;
+}
+.w-h {
+  width: 44%;
+  height: 1.5rem;
+}
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  width: 100%;
+  border-bottom: .01rem solid #74d4eb;
+}
+header > .top-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .5rem;
+}
+.top-title-box > .left-return {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  border-bottom: .02rem solid #fff;
+  border-left: .02rem solid #fff;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.top-title-box > .top-title {
+  font-size: .17rem;
+  color: #fff;
+}
+.top-title-box > .close {
+  display: block;
+  width: .18rem;
+  height: .18rem;
+  background: url(../task3-1/img/colse.png) no-repeat;
+  background-size: contain;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: .42rem;
+  position: relative;
+  font-size: 0;
+}
+main > #main-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 70%;
+  height: 3.28rem;
+  border: .05rem solid #fff;
+  background-color: #ffedc5;
+}
+#main-middle > #draw-icon {
+  display: block;
+  width: 44%;
+  height: 1.5rem;
+  background: url(../task3-1/img/icon.png) no-repeat 50%;
+  background-size: contain;
+}
+#main-middle > #killerPicture {
+  display: none;
+  width: 44%;
+  height: 1.5rem;
+  background: url(../task3-1/img/killer.png) no-repeat 50%;
+  background-size: contain;
+}
+#main-middle > #civilianPicture {
+  display: none;
+  width: 44%;
+  height: 1.5rem;
+  background: url(../task3-1/img/civilian.png) no-repeat 50%;
+  background-size: contain;
+}
+#main-middle > #identity {
+  margin-top: .2em;
+  font-size: .2rem;
+  font-weight: 700;
+  color: #29bde0;
+}
+main > #top-number-ball {
+  width: .35rem;
+  height: .35rem;
+  border-radius: 50%;
+  border: .02rem solid #ffedc5;
+  position: absolute;
+  top: -20px;
+  text-align: center;
+  font-size: .2rem;
+  color: #f56b81;
+  background-color: #fff;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin: .61rem 0 .3rem 0;
+  font-size: 0;
+}
+footer > .checks {
+  width: 80%;
+  height: .42rem;
+  border: 0;
+  color: #fff;
+  font-size: .24rem;
+  font-weight: 700;
+  background-color: #fbb435;
+}

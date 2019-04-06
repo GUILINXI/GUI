@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+header {
+    width: 100%;
+    height: 40px;
+    background: #29bde0;
+}
+.one {
+    display: inline-block;
+    border: 2px solid #fff;
+    width: 25px;
+    position: absolute;
+    top: 10px;
+    margin: 0;
+}
+.two {
+    display: inline-block;
+    border: 2px solid #fff;
+    width: 25px;
+    position: absolute;
+    top: 20px;
+    margin: 0;
+}
+.three {
+    display: inline-block;
+    border: 2px solid #fff;
+    width: 25px;
+    position: absolute;
+    top: 30px;
+    margin: 0;
+}
+.line {
+    margin-left: 10px;
+    position: relative;
+    bottom: 2px;
+}
+.last {
+    width: 90%;
+    height: 60px;
+    border: 1px solid #f0f0f0;
+    margin-top: 15px;
+    margin-left: 5%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.versions {
+    font-size: 18px;
+    color: #9a9a9a;
+    line-height: 20px;
+}
+.arrows {
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border-top: 4px solid #f0f0f0;
+    border-right: 4px solid #f0f0f0;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 35px;
+    top: 75px;
+}
+.bigbox {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px sloid #f0f0f0;
+    background: #fff;
+}
+.game {
+    height: 40px;
+    margin-top: 15px;
+    background: #fff;
+    border-bottom: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    font-size: 18px;
+    color: orange;
+}
+.simplify {
+    width: 80%;
+    height: 55px;
+    background: #29bde0;
+    margin-top: 15px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-size: 16px;
+    color: #fff;
+}
+.paragraph {
+    font-size: 14px;
+    color: #9a9a9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guess {
+    width: 80%;
+    height: 55px;
+    background: #29bde0;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+    font-size: 16px;
+    color: #fff;
+}
+.trigon {
+    display: block;
+    width:0;
+    height:0;
+    border-width:15px 0 15px 15px;
+    border-style:solid;
+    border-color:transparent transparent transparent orange;/*透明 透明 透明 灰*/
+    position: absolute;
+    left: 88%;
+}
+.idiot {
+    width: 80%;
+    height: 55px;
+    background: #29bde0;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text3 {
+    font-size: 16px;
+    color: #fff;
+}
+.roundness {
+    display: flex;
+    justify-content: center;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    margin: 5px;   
+}
+main p:hover {
+    background:#29bde0; 
+    z-index: 1;
+}

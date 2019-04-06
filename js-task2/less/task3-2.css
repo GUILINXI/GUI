@@ -1,0 +1,126 @@
+html {
+  font-size: 625%;
+}
+body {
+  background: #29bde0;
+}
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body > header {
+  position: fiexd;
+  top: 0;
+  width: 100%;
+  background: #29bde0;
+}
+header > .nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-box > .munes {
+  padding: .3rem;
+  background: url(../task3-2/images/daohang.png) no-repeat 50%;
+}
+.nav-box > .voteword {
+  font-size: .17rem;
+  color: #fff;
+}
+.nav-box > .x {
+  padding: .3rem;
+  background: url(../task3-2/images/X.png) no-repeat 50%;
+}
+.voice-box {
+  padding: .15rem;
+  background: #b9e9f5;
+}
+.voice-box > .text {
+  padding-left: .24rem;
+  font-size: .14rem;
+  font-weight: 700;
+}
+.voice-box > .yuan {
+  display: block;
+  position: absolute;
+  top: .7rem;
+  right: .25rem;
+  height: .27rem;
+  width: .27rem;
+  background: url(../task3-2/images/yuan.png) no-repeat;
+  background-size: contain;
+}
+.voice-box > audio {
+  position: absolute;
+  right: .15rem;
+  top: .6rem;
+  width: .85rem;
+  opacity: 0.0;
+  transform: rotate(180deg);
+}
+header > .triangle {
+  width: 0;
+  height: 0;
+  border-width: .1rem .05rem 0;
+  border-style: solid;
+  border-color: #b9e9f5 transparent transparent;
+  margin-left: .5rem;
+}
+header > .text2 {
+  padding-left: .25rem;
+  margin: .05rem 0 .2rem 0;
+  font-size: .12rem;
+  color: #fff;
+}
+main {
+  padding-bottom: 10rem;
+}
+main > .main-square-boxs {
+  float: left;
+  width: 25vw;
+  height: 25vw;
+  margin: 2.3%;
+  text-align: center;
+  border: .05rem solid #fff;
+  cursor: pointer;
+}
+.main-square-boxs > .square-identity {
+  line-height: 18vw;
+  font-size: 6vw;
+  font-weight: 700;
+  background: #f5c97b;
+}
+.main-square-boxs > .square-number {
+  line-height: 7vw;
+  font-size: 3vw;
+  font-weight: 700;
+  color: #fff;
+  background: #83b09a;
+}
+.main-square-boxs > .squareRed {
+  background-color: red!important;
+}
+.yejiao {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: .95rem;
+  background-color: #29bde0;
+}
+.base {
+  display: block;
+  text-align: center;
+  line-height: .44rem;
+  width: 80%;
+  border: 0;
+  text-decoration: none;
+  font-size: .2rem;
+  font-weight: 700;
+  color: #fff;
+  background: #fbb435;
+  cursor: pointer;
+}

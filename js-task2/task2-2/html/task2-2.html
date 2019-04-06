@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>参数设置</title>
+    <link rel="stylesheet" href="../../less/task2-2.css">
+    <link rel="stylesheet" href="../../../reset.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-box">
+            <a class="return"></a>
+            <h3>参数设置</h3>
+            <a class="help"></a>
+        </div>
+    </header>
+    <main>
+        <div class="main-top-box container">
+            <h2 class="left-title">玩家配比</h2>
+            <div class="right-upper">
+                <ul class="top-text" id="countpeople">
+                    <li class="text1" id="killer">
+                        
+                    </li>
+                    <li class="text" id="civilian">
+                        
+                    </li>
+                </ul>
+                <button class="right-base" id="playerratio">点击设置</button>
+            </div>
+        </div>
+        <div class="main-buttom-box container">
+            <p class="texts">
+                玩家人数
+                <input class="top-upper" type="number" value="4" id="textNumber" oninput="inputs()">
+                人
+            </p>
+            <div class="bottom-upper">
+                <input class="left-minus" type="button" onclick="btnSub()">
+                <input class="lines-btn" type="range" id="rangeNumber" onchange="change()" value="4" min="4" max="18">
+                <input class="right-minus" type="button" onclick="btnAdd()">
+            </div>
+        </div>
+    </main>
+    <footer class="container">
+        <button class="deal" id="goDeal">去发牌</button>
+    </footer>
+    <script src="../../task2-2/js/task2-2.js"></script>
+</body>
+
+</html>
